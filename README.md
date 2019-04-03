@@ -1,24 +1,16 @@
 
-# HTML Basics
+# An Introduction to HTML
 
 ## Introduction
 
-HTML, or HyperText Markup Language, is a markup language which describes the
-structure and semantic meaning of web pages. Web browsers, such as Mozilla
-Firefox, Internet Explorer, and Google Chrome interpret the HTML code and use
-it to render output. Unlike Ruby, JavaScript and other programming languages,
-markup languages like HTML don't have any logic behind them. Instead, they
-simply surround the content to convey structure and meaning.
+HyperText Markup Language (HTML) is the language of the web! It is the way that you take content you would like to share and describe it in a way that a browser can understand and display.
 
-Every web page you've ever visited is structured using HTML code. Being able to
-read and understand an HTML document is one of the most essential tools in a
-developer's toolbox.
+Every web page you've ever visited uses HTML to contain the content, and it's important to understand a little bit about what a web page looks like so you'll be able to effectively scrape the content from it.
 
 ## Objectives
 You will be able to:
-* Explain what HTML is and why it's important in the context of web development
+* Explain what HTML is and why it's important
 * Read a basic HTML document
-* Write basic HTML tags
 
 ## HTML Syntax
 
