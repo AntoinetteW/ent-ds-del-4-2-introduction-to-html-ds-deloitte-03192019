@@ -3,7 +3,7 @@
 
 ## Introduction
 
-HyperText Markup Language (HTML) is the language of the web! It is the way that you take content you would like to share and describe it in a way that a web browser can understand and display. Every web page you've ever visited uses HTML to "mark up" the content, and it's important to understand a little bit about what a web page looks like so you'll be able to effectively scrape the content from it. We'll also give you a little hands on experience with building a simple HTML website as we've consistently found that a little practice building a website helps people to become more comfortable with HTML and more successful at web scraping.
+HyperText Markup Language (HTML) is the language of the web! It is the way that you take content you would like to share and describe it in a way that a web browser can understand and display. Every web page you've ever visited uses HTML to "mark up" the content, and it's important to understand a little bit about what a web page looks like so you'll be able to effectively scrape the content from it. We'll also give you a little hands on experience with building a simple HTML website as we've consistently found that a little practice building a website helps people to become more comfortable with HTML and therefore more successful at web scraping.
 
 ## Objectives
 You will be able to:
