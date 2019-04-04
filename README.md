@@ -3,7 +3,7 @@
 
 ## Introduction
 
-HyperText Markup Language (HTML) is the language of the web! It is the way that you take content you would like to share and describe it in a way that a browser can understand and display. Every web page you've ever visited uses HTML to contain the content, and it's important to understand a little bit about what a web page looks like so you'll be able to effectively scrape the content from it.
+HyperText Markup Language (HTML) is the language of the web! It is the way that you take content you would like to share and describe it in a way that a web browser can understand and display. Every web page you've ever visited uses HTML to "mark up" the content, and it's important to understand a little bit about what a web page looks like so you'll be able to effectively scrape the content from it. We'll also give you a little hands on experience with building a simple HTML website as we've consistently found that a little practice building a website helps people to become more comfortable with HTML and more successful at web scraping.
 
 ## Objectives
 You will be able to:
@@ -17,12 +17,12 @@ You will be able to:
 <p>Hello World</p>
 ```
 
-Elements, like our `p` tags above, won't be displayed in the browser. Instead,
+Elements, like our `p` *(paragraph)* tags above, won't be displayed in the browser. Instead,
 they affect how the content itself is displayed. Technologists might say that
 the tags "affect how the content is rendered by the browser."
 
 We can also alter any number of attributes inside of the opening tags. For
-example, the `a` element, which is used for links, has an `href` attribute to
+example, the `a` *(anchor)* element, which is used for links, has an `href` attribute to
 specify the destination address of the link. If we wanted to link to
 www.flatironschool.com, we could do so as follows:
 
@@ -49,7 +49,7 @@ evolving &mdash; just like English. When we open "Romeo and Juliet," our
 expectation is that the "doctype" is "Elizabethan English." In the same way
 "Elizabethan English" has changed to a more modern form, HTML 1.0 was
 _essentially_ the same as modern HTML5 but had some tags we don't use any more
-and was lacking some tags we use often today.
+and was lacking some tags we often use today.
 
 Since it's not wrapping any content, our doctype declaration doesn't require a
 closing tag. To use HTML5, the current up-to-date version, we can simply
@@ -94,7 +94,7 @@ for the browser, while the `body` element contains the actual content.
 
 Let's also take a brief moment to recognize how to add comments into an HTML
 document.  These won't get rendered to the browser at all: they're just helpful
-notes for the author.
+notes for anyone looking through the source for the web page.
 
 ```html
 <!-- NYC Pizza is world-famous, cheap, and loved by both vermin and human like! -->
@@ -103,13 +103,11 @@ notes for the author.
 
 ## Common HTML Elements
 
-We've already looked at some common HTML elements, such as `a` and `p`. Let's
-take a look at some more HTML elements.
+We've already looked at some common HTML elements, such as `a` and `p`. Let's take a look at some more HTML elements.
 
 ## Headers
 
-HTML gives us access to different header elements, ranging from `h1` to `h6`,
-with `h1` being the largest and `h6` being the smallest.
+HTML gives us access to different header elements, ranging from `h1` to `h6`, with `h1` being the largest and `h6` being the smallest.
 
 ```html
 <h1>Dogs!</h1>
@@ -118,34 +116,19 @@ with `h1` being the largest and `h6` being the smallest.
 <h6>Different Breeds</h6>
 ```
 
-In addition to changing how the text is displayed, search engines use headers
-to help determine what a web page is about. Remember, as Avi pointed out, when
-we provide _semantic_ markup, machines can infer the "main points" of a page. A
-well structured article will generally have its principal arguments bracketed
-by low-number header tags -- this very document does exactly that!
+In addition to changing how the text is displayed, search engines use headers to help determine what a web page is about. When we provide _semantic_ markup, machines can infer the "main points" of a page. A well structured article will generally have its principal arguments bracketed by low-number header tags -- this very document does exactly that!
 
 ## Images
 
-We can embed images on our web pages using the `img` element. The `img` element
-doesn't have a closing tag. The `src` attribute tells the browser where to find
-the image. The `alt` attribute will be displayed if an image can't be loaded,
-and also describes the image to search engines.
+We can embed images on our web pages using the `img` element. The `img` element doesn't have a closing tag. The `src` attribute tells the browser where to find the image. The `alt` attribute will be displayed if an image can't be loaded, and also describes the image to search engines.
 
-The `alt` tag presents a moment to talk about an important principle behind Tim
-Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive
-technologies because you have a sight impairment, it's helpful to know what's
-being displayed. If you're in a remote community where internet access is
-expensive, you might choose to disable images and only pay to download those
-which you _absolutely need_. So while an `img` will inject an image and "work,"
-honoring the Web's vision for openness and inclusivity requires that we provide
-the `alt` tag as well.
+The `alt` attribute presents an opportunity to talk about an important principle behind Tim Berners-Lee's vision for the Web: it is _inclusive_. If you're using assistive technologies because you have a sight impairment, it's helpful to know what's being displayed. If you're in a remote community where internet access is expensive, you might choose to disable images and only pay to download those which you _absolutely need_. So while an `img` will inject an image and "work," honoring the Web's vision for openness and inclusivity requires that we provide the `alt` tag as well.
 
 `<img src="URL_TO_IMAGE" alt="Picture of a Dog">`
 
 ## Lists
 
-Some other useful HTML elements are lists. We can make bulleted, or unordered
-lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or
+Another useful HTML element is a list. We can make bulleted *(unordered)* lists, using opening and closing `ul` tags. Inside, we can nest an `li`, or
 "list item" element for each item on our list.
 
 ```html
@@ -169,7 +152,7 @@ ____
 </ul>
 ____
 
-We can also make a numbered, or ordered list, using an `ol` tag.
+We can also make an ordered list, using an `ol` tag.
 
 ```html
 <h5>Top 5 Pizza Places in NYC</h5>
@@ -197,7 +180,7 @@ ____
 
 ## Your Turn!
 
-OK, now that we've introduced a number of tags, it's your turn! 
+OK, now that we've introduced a number of tags, it's your turn to get some hands on experience working with HTML! 
 
 ### Getting Set Up
 There are two ways you can start to create an HTML web page.
