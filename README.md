@@ -191,11 +191,17 @@ There are two ways you can start to create an HTML web page.
 
 Start by creating a simple website. Remember the `doctype`, `html` tag and the `head` and `body` tags within it. In the head set the `title` tag to set how the page will be described in the browser tab, and then in the body, put an `h1` title, a smaller `h2` title, a couple of `p`aragraphs of text and a `li`st of bulleted items!
 
+**Check out the index.html in the solution branch**
+
 ### Extra Credit (1)
 Make your web page longer. Add three additional headings with at least 3-4 paragraphs of content under each (if you don't want to type the content, you could always [generate some lorem ipsum](https://www.lipsum.com/). Now see if you can find out how to create an anchor tag around each of the headings. Then add a bulleted list to the top of the page with the three headings and a link to each one (hint, you may have to Google a little bit to figure this out).
 
+**Check out the index1.html in the solution branch**
+
 ### Extra Credit (2)
 Pick five extra tags from [here](https://www.w3schools.com/tags/), and incorporate them into your web page. If you run into a lot of trouble with a given tag, feel free to move along to another one.
+
+**Check out the index2.html in the solution branch**
 
 
 ## Summary
